@@ -1,7 +1,16 @@
+
+
+import Image from "next/image";
+
+import Img1 from "../assets/aws.png"
+import Img2 from "../assets/blue.png"
+import Img3 from "../assets/cloud.png"
+
+
 export default function Card() {
   return (
     <main className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
-      <div className="w-full max-w-5xl flex items-center justify-center">
+      <div className="w-full max-w-3xl sm:max-w-4xl md:max-w-5xl flex items-center justify-center">
 
         <div className="relative">
 
@@ -17,7 +26,7 @@ export default function Card() {
                 { label: "Cloud", h: "h-10" },
               ].map((item, i) => (
                 <div key={i} className="flex flex-col items-center gap-2">
-                  <div className={`w-9 ${item.h} bg-green-400 rounded-md`} />
+                  <div className={` w-5 sm:w-9 ${item.h} bg-green-400 rounded-md`} />
                   <span className="text-xs text-gray-600">{item.label}</span>
                 </div>
               ))}
@@ -33,8 +42,10 @@ export default function Card() {
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
         }}
       >
-        Heptagon
       </div>
+      <Image
+      src={Img1}
+      alt="image" className="object-cover w-7 sm:w-8 lg:w-14"/>
           </div>
 
           {/* Azure - top right */}
@@ -46,7 +57,12 @@ export default function Card() {
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
         }}
       >
-        Heptagon
+      </div>
+      <div className="flex flex-row items-center">
+              <Image
+      src={Img2}
+      alt="image" className="object-cover w-5 sm:w-8 lg:w-11"/>
+      <p className="text-blue-500 text-xs md:text-[18px]">Azure</p>
       </div>
           </div>
 
@@ -59,8 +75,10 @@ export default function Card() {
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
         }}
       >
-        Heptagon
       </div>
+            <Image
+      src={Img3}
+      alt="image" className="object-cover w-9 sm:w-11 lg:w-18"/>
           </div>
 
           {/* On-Prem - bottom right */}
@@ -72,8 +90,8 @@ export default function Card() {
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
         }}
       >
-        Heptagon
       </div>
+      <p className="font-semibold text-[15px]">On-Premise</p>
           </div>
 
         </div>

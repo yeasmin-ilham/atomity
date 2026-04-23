@@ -9,13 +9,13 @@ import Img3 from "../assets/cloud.png"
 
 export default function Card() {
   return (
-    <main className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+    <main className="min-h-screen bg-secondary flex items-center justify-center p-6">
       <div className="w-full max-w-3xl sm:max-w-4xl md:max-w-5xl flex items-center justify-center">
 
         <div className="relative">
 
           {/* Center Card */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 text-center border-4 border-green-200">
+          <div className="bg-white rounded-2xl shadow-lg p-8 text-center border-4 border-primary-foreground">
             <div className="grid grid-cols-6 gap-6 items-end h-40">
               {[
                 { label: "CPU", h: "h-32" },
@@ -36,7 +36,7 @@ export default function Card() {
           {/* AWS - top left */}
           <div className="absolute -top-20 -left-20 md:-top-40 md:-left-40 lg:-top-50 lg:-left-50">
              <div
-        className=" w-20 h-20 md:w-40 md:h-40 bg-green-400"
+        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
         style={{
           clipPath:
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
@@ -51,7 +51,7 @@ export default function Card() {
           {/* Azure - top right */}
           <div className="absolute -top-20 -right-20 md:-top-40 md:-right-40 lg:-top-50 lg:-right-50">
                 <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-green-400"
+        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
         style={{
           clipPath:
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
@@ -69,7 +69,7 @@ export default function Card() {
           {/* GCP - bottom left */}
           <div className="absolute -bottom-20 -left-20 md:-bottom-40 md:-left-40 lg:-bottom-50 lg:-left-50">
               <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-green-400"
+        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
         style={{
           clipPath:
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
@@ -84,14 +84,14 @@ export default function Card() {
           {/* On-Prem - bottom right */}
           <div className="absolute -bottom-20 -right-20 md:-bottom-40 md:-right-40 lg:-bottom-50 lg:-right-50">
                <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-green-400"
+        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
         style={{
           clipPath:
             "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
         }}
       >
       </div>
-      <p className="font-semibold text-[15px]">On-Premise</p>
+      <p className="font-semibold text-[14px]">On-Premise</p>
           </div>
 
         </div>

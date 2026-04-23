@@ -5,6 +5,7 @@ import Image from "next/image";
 import Img1 from "../assets/aws.png"
 import Img2 from "../assets/blue.png"
 import Img3 from "../assets/cloud.png"
+import Heptagon from "./Heptagon";
 
 
 export default function Card() {
@@ -35,14 +36,7 @@ export default function Card() {
 
           {/* AWS - top left */}
           <div className="absolute -top-20 -left-20 md:-top-40 md:-left-40 lg:-top-50 lg:-left-50">
-             <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
-        style={{
-          clipPath:
-            "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
-        }}
-      >
-      </div>
+    <Heptagon/>
       <Image
       src={Img1}
       alt="image" className="object-cover w-7 sm:w-8 lg:w-14"/>
@@ -50,14 +44,7 @@ export default function Card() {
 
           {/* Azure - top right */}
           <div className="absolute -top-20 -right-20 md:-top-40 md:-right-40 lg:-top-50 lg:-right-50">
-                <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
-        style={{
-          clipPath:
-            "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
-        }}
-      >
-      </div>
+       <Heptagon/>
       <div className="flex flex-row items-center">
               <Image
       src={Img2}
@@ -68,14 +55,7 @@ export default function Card() {
 
           {/* GCP - bottom left */}
           <div className="absolute -bottom-20 -left-20 md:-bottom-40 md:-left-40 lg:-bottom-50 lg:-left-50">
-              <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
-        style={{
-          clipPath:
-            "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
-        }}
-      >
-      </div>
+     <Heptagon/>
             <Image
       src={Img3}
       alt="image" className="object-cover w-9 sm:w-11 lg:w-18"/>
@@ -83,14 +63,7 @@ export default function Card() {
 
           {/* On-Prem - bottom right */}
           <div className="absolute -bottom-20 -right-20 md:-bottom-40 md:-right-40 lg:-bottom-50 lg:-right-50">
-               <div
-        className="w-20 h-20 md:w-40 md:h-40 bg-gradient-to-r from-gradient-start to-gradient-end"
-        style={{
-          clipPath:
-            "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
-        }}
-      >
-      </div>
+      <Heptagon/>
       <p className="font-semibold text-[14px]">On-Premise</p>
           </div>
 

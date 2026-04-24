@@ -16,9 +16,15 @@ export default function Product() {
   ];
 
   return (
-    <section>
-      <div className="min-h-screen bg-secondary flex items-center justify-center p-6">
-        
+    <section> 
+
+      <div className="min-h-screen bg-secondary flex flex-col items-center justify-center p-6 gap-30">
+            
+             {/* Title */}
+        <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-semibold text-center font-sans">
+          Atomity <span className="text-sky-600"> Products</span>
+        </h1>
+
         <div className="flex gap-10">
           {items.map((item) => (
             <div
@@ -33,6 +39,7 @@ export default function Product() {
                 transition={{ duration: 0.2 }}
               >
                 <Heptagon className={item.color} />
+                <p className="pt-2 text-muted font-medium">Hover for details</p>
               </motion.div>
 
               {/* Hover Card */}

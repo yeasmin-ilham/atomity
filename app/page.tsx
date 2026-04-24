@@ -1,13 +1,14 @@
-import Card from "./components/Card";
-import Product from "./components/Product";
+
+import HomePage from "./pages/HomePage";
+import ProductPage from "./pages/ProductPage";
 
 
 
 export default function Home(){
   return(
     <main>
-      <Card/>
-      <Product/>
+      <HomePage/>
+      <ProductPage/>
     </main>
   )
 }

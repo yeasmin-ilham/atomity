@@ -6,9 +6,9 @@ import { motion, Variants } from "framer-motion";
 import Img1 from "../assets/aws.png";
 import Img2 from "../assets/blue.png";
 import Img3 from "../assets/cloud.png";
-import Heptagon from "./Heptagon";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Heptagon from "../components/Heptagon";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 type CornerDir = { x: number; y: number };
 
@@ -37,7 +37,7 @@ const cornerVariants: Variants = {
 
 
 
-export default function Card() {
+export default function HomePage() {
   return (
 
     <div>

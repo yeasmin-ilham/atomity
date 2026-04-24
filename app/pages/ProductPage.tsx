@@ -2,10 +2,10 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import Heptagon from "./Heptagon";
-import HoverCard from "./HoverCard";
+import Heptagon from "../components/Heptagon";
+import HoverCard from "../components/HoverCard";
 
-export default function Product() {
+export default function ProductPage() {
   const [hovered, setHovered] = useState<string | null>(null);
 
   const items = [

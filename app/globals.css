@@ -3,8 +3,8 @@
 
 :root {
   
-  --primary: #24ee6e;
-  --primary-foreground: #a8fdaf;
+  --primary: #1cce5d;
+  --primary-foreground: #63f07b;
   --secondary: #e2e2e2;
   --secondary-foreground: #ffffff;
   --gradient-start:#e96d5c;
@@ -18,16 +18,11 @@
 @theme inline {
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
-
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
-
   --color-gradient-start: var(--gradient-start);
   --color-gradient-end: var(--gradient-end);
-  
-
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
-
   --color-accent: var(--accent);
 }

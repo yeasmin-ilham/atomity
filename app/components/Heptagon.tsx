@@ -9,7 +9,6 @@ export default function Heptagon({ children, className = "" }: HeptagonProps) {
       className={`
         w-20 h-20 
         md:w-35 md:h-35 
-        bg-gradient-to-r from-gradient-start to-gradient-end
         shadow-lg transition-all duration-300 cursor-pointer hover:scale-105
         ${className}
       `}

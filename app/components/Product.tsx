@@ -9,10 +9,10 @@ export default function Product() {
   const [hovered, setHovered] = useState<string | null>(null);
 
   const items = [
-    { id: "one", color: "bg-red-500" },
-    { id: "two", color: "bg-blue-500" },
-    { id: "three", color: "bg-green-500" },
-    { id: "four", color: "bg-yellow-500" },
+    { id: "one", color: "bg-foreground" },
+    { id: "two", color: "bg-muted" },
+    { id: "three", color: "bg-accent" },
+    { id: "four", color: "bg-secondary-foreground" },
   ];
 
   return (

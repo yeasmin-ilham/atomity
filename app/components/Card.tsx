@@ -93,7 +93,7 @@ export default function Card() {
             whileHover={{ scale: 1.08, transition: { type: "spring", stiffness: 300 } }}
           >
             <motion.div>
-              <Heptagon />
+              <Heptagon className="bg-gradient-to-r from-gradient-start to-gradient-end"/>
               <Image src={Img1} alt="AWS" className="object-cover w-7 sm:w-8 lg:w-14" />
             </motion.div>
           </motion.div>
@@ -108,7 +108,7 @@ export default function Card() {
             whileHover={{ scale: 1.08, transition: { type: "spring", stiffness: 300 } }}
           >
             <motion.div>
-              <Heptagon />
+              <Heptagon className="bg-gradient-to-r from-gradient-start to-gradient-end"/>
               <div className="flex flex-row items-center">
                 <Image src={Img2} alt="Azure" className="object-cover w-5 sm:w-8 lg:w-11" />
                 <p className="text-blue-500 text-xs md:text-[18px]">Azure</p>
@@ -126,7 +126,7 @@ export default function Card() {
             whileHover={{ scale: 1.08, transition: { type: "spring", stiffness: 300 } }}
           >
             <motion.div >
-              <Heptagon />
+              <Heptagon className="bg-gradient-to-r from-gradient-start to-gradient-end"/>
               <Image src={Img3} alt="GCP" className="object-cover w-9 sm:w-11 lg:w-18" />
             </motion.div>
           </motion.div>
@@ -141,7 +141,7 @@ export default function Card() {
             whileHover={{ scale: 1.08, transition: { type: "spring", stiffness: 300 } }}
           >
             <motion.div>
-              <Heptagon />
+              <Heptagon className="bg-gradient-to-r from-gradient-start to-gradient-end" />
               <p className="font-semibold text-[14px]">On-Premise</p>
             </motion.div>
           </motion.div>

@@ -6,12 +6,12 @@
   --primary: #1cce5d;
   --primary-foreground: #63f07b;
   --secondary: #e2e2e2;
-  --secondary-foreground: #ffffff;
+  --secondary-foreground: #a95fb3;
   --gradient-start:#e96d5c;
   --gradient-end: #e6dc55;
-  --foreground: #111827;
-  --muted: #6b7280;
-  --accent: #facc15;
+  --foreground: #ebb147;
+  --muted: #62af44;
+  --accent: #2aa1b1;
 }
 
 
